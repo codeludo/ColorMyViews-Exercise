@@ -31,14 +31,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Add clickHandlers to the text views
-    private fun makeColored(view: View) {
+    private fun makeBackgroundImage(view: View) {
         when (view.id) {
             // Boxes using Color class colors for the background
-            R.id.box_one_text -> view.setBackgroundColor(Color.DKGRAY)
-            R.id.box_two_text -> view.setBackgroundColor(Color.GRAY)
-            R.id.box_three_text -> view.setBackgroundColor(Color.BLUE)
-            R.id.box_four_text -> view.setBackgroundColor(Color.MAGENTA)
-            R.id.box_five_text -> view.setBackgroundColor(Color.BLUE)
+            R.id.box_one_text -> view.setBackgroundResource(R.drawable.ic_zanahoria)
+            R.id.box_two_text -> view.setBackgroundResource(R.drawable.ic_maiz)
+            R.id.box_three_text -> view.setBackgroundResource(R.drawable.ic_tomate)
+            R.id.box_four_text -> view.setBackgroundResource(R.drawable.ic_mushrooms)
+            R.id.box_five_text -> view.setBackgroundResource(R.drawable.ic_lechuga)
             else -> view.setBackgroundColor(Color.LTGRAY)
         }
     }
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             )
 
         for (item in clickableViews) {
-            item.setOnClickListener { makeColored(it) }
+            item.setOnClickListener { makeBackgroundImage(it) }
         }
     }
 }
