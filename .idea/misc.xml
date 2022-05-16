@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/EJERCICIOS/androidDev/ColorMyViews/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/EJERCICIOS/androidDev/ColorMyViews/app/src/main/res/drawable/ic_lechuga.xml" value="0.1805" />
+        <entry key="..\:/EJERCICIOS/androidDev/ColorMyViews/app/src/main/res/drawable/ic_maiz.xml" value="0.1805" />
+        <entry key="..\:/EJERCICIOS/androidDev/ColorMyViews/app/src/main/res/drawable/ic_zanahoria.xml" value="0.1805" />
+        <entry key="..\:/EJERCICIOS/androidDev/ColorMyViews/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
   </component>
